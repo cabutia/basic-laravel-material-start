@@ -37,3 +37,13 @@ DB_DATABASE= Your database name
 DB_USERNAME= Your database's user
 DB_PASSWORD= Your database's password
 ```
+
+## C'mon!
+
+Once done everything (Yes, sometimes it's tedious), just `cd` into your project, and run:
+
+`php artisan serve`
+
+It will start a local development server, running under `127.0.0.1:8000` or `localhost:8000`
+
+# Have fun!
