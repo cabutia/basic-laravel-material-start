@@ -17,7 +17,23 @@ This will create a directory called `basic-laravel-material-start`. Inside, you'
 
 ## Configuring
 The repository comes along with all the required files for using MaterializeCSS Framework.
+Once cloned, you must `cd` into the created repository, then, install all dependencies via **Composer** running
 
-Once cloned, you must `cd` into the created repository, then, install all dependencies via **Composer** running `composer install`.
+`composer install`
 
-This will create a `vendor` folder, containing everything you need.
+If everything goes right, you should have a `vendor` folder, containing everything you need.
+
+The next step is create a `.env` file. The easiest way (at least for me) is openin a `Terminal`, then `cd` into your repository folder, and run:
+
+`cp .env.example .env`
+
+Once done, you just need to edit some lines:
+
+```(.env)
+DB_CONNECTION= Database driver (default: mysql)
+DB_HOST= Your database host (default: 127.0.0.1) (Yes, it's local)
+DB_PORT= Your database port (default: 3306)
+DB_DATABASE= Your database name
+DB_USERNAME= Your database's user
+DB_PASSWORD= Your database's password
+```
